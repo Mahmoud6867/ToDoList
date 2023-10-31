@@ -2,7 +2,7 @@ import React from "react";
 
 function TodoItem({ completed, id, title, toggleTodo, deleteTodo }) {
   return (
-    <li className="w-full my-3 flex justify-between drop-shadow-2xl  rounded bg-fuchsia-800 p-2">
+    <li className="w-full my-3 flex flex-wrap justify-between drop-shadow-2xl  rounded bg-fuchsia-800 p-2">
       <div className="w-3/4 flex justify-start bg-red">
         <label className="text-xl w-full">
           <p className="text-ellipsis overflow-hidden w-full">{title}</p>
